@@ -6,23 +6,17 @@
     <classes>
       <class name="trivago.HotelBookingDetails">
         <methods>
-          <include name="verifyTitle"/>
+          <include name="searchHotels"/>
+          <include name="verifyHotelNamesAndPrices"/>
+          <include name="selectGuests"/>
           <include name="tearDown"/>
+          <include name="selectDate"/>
+          <include name="testUsingExcelData"/>
+          <include name="sortHotelsByRating"/>
+          <include name="testScrollByPixels"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- trivago.HotelBookingDetails -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
-  <test thread-count="5" name="EdgeTest(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="trivago.HotelBookingDetails">
-        <methods>
-          <include name="verifyTitle"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- trivago.HotelBookingDetails -->
-    </classes>
-  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
